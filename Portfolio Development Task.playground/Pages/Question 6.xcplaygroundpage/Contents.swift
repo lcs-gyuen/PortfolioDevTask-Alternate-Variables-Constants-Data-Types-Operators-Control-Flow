@@ -17,8 +17,23 @@
  
  */
 // Answer question 6 below
+let targetDistance = 100.0
+var currentDistanceRun = 90.2
 
-
+switch currentDistanceRun {
+case 0...10:
+    print("Great start, keep it up!")
+case 45...49:
+    print("You're almost at halfway!")
+case 50:
+    print("Halfway there!")
+case 90...99:
+    print("Nearly done!")
+case targetDistance:
+    print("GREAT JOB! You're finished the run")
+default:
+    print("Keep it up!")
+}
 /*:
  ## Now share your understanding
  
