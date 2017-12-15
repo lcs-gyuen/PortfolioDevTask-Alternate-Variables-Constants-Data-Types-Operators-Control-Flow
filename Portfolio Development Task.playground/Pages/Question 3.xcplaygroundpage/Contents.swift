@@ -21,6 +21,24 @@
  
  */
 // Answer question 3 below
+var valueOfDimes = 0.10
+
+print("the value of dimes are in cents and require decimals, thus requiring it be be double")
+
+var dimeCount = 20.0
+
+print("dimeCount and valueOfDimes need to be the same type of data type to work, it can't be Int and Double.")
+
+var valueOfQuaters = 0.25
+
+print("the value of quaters are in cents and require decimals, thus requiring it be be double")
+
+var quaterCount = 20.0
+
+print("dimeCount and valueOfQuaters need to be the same type of data type to work, it can't be Int and Double.")
+
+let totalValueOfCoins = (dimeCount * valueOfDimes)+(valueOfQuaters * quaterCount)
+
 
 /*:
  ## Now share your understanding
