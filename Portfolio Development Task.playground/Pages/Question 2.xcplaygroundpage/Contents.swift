@@ -17,6 +17,9 @@
  
  */
 // Answer question 2 below
+let name = "ironicTShirt"
+var totalSold = 200.0
+let suggestedPrice = 25.0
 
 /*:
  ## Now share your understanding
