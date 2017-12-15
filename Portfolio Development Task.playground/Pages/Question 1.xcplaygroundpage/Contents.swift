@@ -15,11 +15,14 @@
  
  */
 // Answer question 1 below
-var whatthejobpaysmeperhourinhongkongdollars = 40.0
-var hoursworkedoverbreak = 37.5
-let e = whatthejobpaysmeperhourinhongkongdollars * hoursworkedoverbreak
-let exchangerate = 0.16 // 1 Hong Kong dollar currently equals 0.16 of a Canadian dollar
-let cda = e * exchangerate
+var jobPerHourHK = 40.0
+var hoursWorked = 37.5
+let hkTotalearnings = jobPerHourHK * hoursWorked
+let exchangeRate = 0.16 // 1 Hong Kong dollar currently equals 0.16 of a Canadian dollar
+let cdaTotalEarnings = hkTotalearnings * exchangeRate
+
+print(hkTotalearnings)
+print(cdaTotalEarnings)
 
 /*:
 - callout(Shortcut): The **Edit All in Scope** menu command is useful when renaming variables – place your cursor within the variable name and then invoke the menu command.
