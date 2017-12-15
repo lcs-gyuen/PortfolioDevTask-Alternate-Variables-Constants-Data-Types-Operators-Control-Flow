@@ -18,18 +18,18 @@
  */
 // Answer question 6 below
 let targetDistance = 100.0
-var currentDistanceRun = 90.2
+var currentDistanceRun = 0.0
 
 switch currentDistanceRun {
-case 0...10:
+case 0...targetDistance * 0.10:
     print("Great start, keep it up!")
-case 45...49:
+case targetDistance * 0.45...targetDistance * 0.49:
     print("You're almost at halfway!")
-case 50:
+case targetDistance * 0.5:
     print("Halfway there!")
-case 90...99:
+case targetDistance * 0.9...targetDistance * 0.99:
     print("Nearly done!")
-case targetDistance:
+case targetDistance * 1:
     print("GREAT JOB! You're finished the run")
 default:
     print("Keep it up!")
