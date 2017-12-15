@@ -19,7 +19,11 @@
  
  */
 // Answer question 4 below
-
+var moneyIHaveEarned = 0.0
+moneyIHaveEarned += 5
+moneyIHaveEarned -= 2
+moneyIHaveEarned *= 4
+moneyIHaveEarned += (0.75*13)
 /*:
  ## Now share your understanding
  
