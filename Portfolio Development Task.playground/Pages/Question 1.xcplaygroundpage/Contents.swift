@@ -17,12 +17,12 @@
 // Answer question 1 below
 var jobPerHourHK = 40.0
 var hoursWorked = 37.5
-let hkTotalearnings = jobPerHourHK * hoursWorked
+let hkTotalEarnings = jobPerHourHK * hoursWorked
 let exchangeRate = 0.16 // 1 Hong Kong dollar currently equals 0.16 of a Canadian dollar
-let cdaTotalEarnings = hkTotalearnings * exchangeRate
+let cdaTotalEarnings = hkTotalEarnings * exchangeRate
 
-print(hkTotalearnings)
-print(cdaTotalEarnings)
+print(hkTotalEarnings) //hkTotalearnings is the total amount of money earned in Hong Kong dollars (1500 HKD)
+print(cdaTotalEarnings) //cdatotalearnings is the total amount of money earned in Canadian dollars (240 CAD)
 
 /*:
 - callout(Shortcut): The **Edit All in Scope** menu command is useful when renaming variables – place your cursor within the variable name and then invoke the menu command.
